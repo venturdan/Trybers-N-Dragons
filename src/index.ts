@@ -1,4 +1,4 @@
-import Battle, { PVE, PVP } from './Battle/battleIndex';
+import Battle, { PVE, PVP } from './Battle';
 import Character from './Character';
 import Dragon from './Dragon';
 import Monster from './Monster';

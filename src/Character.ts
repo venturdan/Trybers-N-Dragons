@@ -1,7 +1,7 @@
-import Archetype, { Necromancer } from './Archetypes/archetypeIndex';
+import Archetype, { Necromancer } from './Archetypes';
 import Energy from './Energy';
-import Fighter, { SimpleFighter } from './Fighter/fighterIndex';
-import Race, { Halfling } from './Races/racesIndex';
+import Fighter, { SimpleFighter } from './Fighter';
+import Race, { Halfling } from './Races';
 import getRandomInt from './utils';
 
 class Character implements Fighter {

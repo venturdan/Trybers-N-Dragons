@@ -1,5 +1,5 @@
 import Battle from './Battle';
-import Fighter, { SimpleFighter } from '../Fighter/fighterIndex';
+import Fighter, { SimpleFighter } from '../Fighter';
 
 class PVE extends Battle {
   constructor(

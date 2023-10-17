@@ -1,5 +1,5 @@
 import Battle from './Battle';
-import Fighter from '../Fighter/fighterIndex';
+import Fighter from '../Fighter';
 
 class PVP extends Battle {
   constructor(protected player: Fighter, private player2: Fighter) {
