@@ -1,16 +1,16 @@
 import Race from './Race';
 
-class Dwarf extends Race {
-  private _maxLifePoints = 80;
-  private static _dwarfInstances = 0;
+class Halfling extends Race {
+  private _maxLifePoints = 60;
+  private static _halflingInstances = 0;
 
   constructor(name: string, description: number) {
     super(name, description);
-    Dwarf._dwarfInstances += 1;
+    Halfling._halflingInstances += 1;
   }
 
   static createdRacesInstances(): number {
-    return Dwarf._dwarfInstances;
+    return Halfling._halflingInstances;
   }
 
   get maxLifePoints(): number {
@@ -18,4 +18,4 @@ class Dwarf extends Race {
   }
 }
 
-export default Dwarf;
+export default Halfling;
